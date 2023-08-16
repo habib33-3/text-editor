@@ -27,48 +27,48 @@
     <header></header>
     <main>
       <section
-        class="w-4/5 mx-auto my-20 bg-blue-300 py-5 rounded-lg shadow-md shadow-black"
+        class="w-4/5 py-5 mx-auto my-20 bg-blue-300 rounded-lg shadow-md shadow-black"
       >
-        <h1 class="text-center font-bold text-4xl">Text Editor</h1>
+        <h1 class="text-4xl font-bold text-center">Text Editor</h1>
         <div
-          class="w-4/5 mx-auto mt-5 bg-indigo-200 p-3 border-black border rounded-lg"
+          class="w-4/5 p-3 mx-auto mt-5 bg-indigo-200 border border-black rounded-lg"
         >
           <div
-            class="w-11/12 flex justify-between mx-auto py-5 items-center gap-10"
+            class="flex items-center justify-between w-11/12 gap-10 py-5 mx-auto"
           >
             <div class="space-x-2">
               <i
                 id="bold"
-                class="fa-solid fa-bold cursor-pointer active:bg-gray-400"
+                class="cursor-pointer fa-solid fa-bold active:bg-gray-400"
               ></i>
               <i
                 id="italic"
-                class="fa-solid fa-italic cursor-pointer active:bg-gray-400"
+                class="cursor-pointer fa-solid fa-italic active:bg-gray-400"
               ></i>
               <i
                 id="underline"
-                class="fa-solid fa-underline cursor-pointer active:bg-gray-400"
+                class="cursor-pointer fa-solid fa-underline active:bg-gray-400"
               ></i>
             </div>
             <div class="space-x-8">
               <i
                 id="center"
-                class="fa-solid fa-align-center cursor-pointer active:bg-gray-400"
+                class="cursor-pointer fa-solid fa-align-center active:bg-gray-400"
               ></i>
               <i
                 id="right"
-                class="fa-solid fa-align-right cursor-pointer active:bg-gray-400"
+                class="cursor-pointer fa-solid fa-align-right active:bg-gray-400"
               ></i>
               <i
                 id="left"
-                class="fa-solid fa-align-left cursor-pointer active:bg-gray-400"
+                class="cursor-pointer fa-solid fa-align-left active:bg-gray-400"
               ></i>
               <i
                 id="justify"
-                class="fa-solid fa-align-justify cursor-pointer active:bg-gray-400"
+                class="cursor-pointer fa-solid fa-align-justify active:bg-gray-400"
               ></i>
             </div>
-            <div class="space-x-2 flex items-center">
+            <div class="flex items-center space-x-2">
               <input
                 type="number"
                 name=""
@@ -80,18 +80,19 @@
                 type="color"
                 name=""
                 id="color"
-                class="w-7 h-7 cursor-pointer"
+                class="cursor-pointer w-7 h-7"
               />
             </div>
           </div>
           <textarea
             name=""
             id="text-editor"
-            class="textarea textarea-bordered textarea-lg w-full h-64 border-black resize-none"
+            class="w-full h-64 border-black resize-none textarea textarea-bordered textarea-lg"
           ></textarea>
         </div>
       </section>
     </main>
     <footer></footer>
+    <script src="app.js"></script>
   </body>
 </html>
